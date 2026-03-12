@@ -16,6 +16,16 @@ Tableau – Dashboard and visualization
 
 ---
 
+## Skills Demonstrated
+
+- Data Cleaning (Python, Pandas)
+- Data Analysis (SQL)
+- Data Visualization (Tableau)
+- Business Insight Generation
+- Dashboard Design
+
+---
+
 ## Key Business Questions
 
 - How have sales evolved over time?
@@ -37,23 +47,34 @@ Tableau – Dashboard and visualization
 ---
 
 ## Dashboard 
-![Dashboard](dashboard/dashboard.png) --- ## Project Structure
+![Dashboard](dashboard/dashboard.png) 
+
+---
+### Interactive Dashboard
+
+View the interactive dashboard on Tableau Public:
+
+[Tableau Dashboard Link](https://public.tableau.com/shared/M4HMYFH8S?:display_count=n&:origin=viz_share_link)
+
+---
+
 ## Project Structure
 
 ```
 data/
-   raw/        → original dataset
-   cleaned/    → processed dataset
+raw dataset files
 
 notebooks/
-   data exploration and cleaning
+data cleaning notebooks
 
 sql/
-   analytical SQL queries
+analysis queries
 
 dashboard/
-   Tableau dashboard image
+tableau dashboard image
 ```
+
+---
 
 ## Author
 
