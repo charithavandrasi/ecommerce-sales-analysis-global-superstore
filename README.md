@@ -61,18 +61,29 @@ View the interactive dashboard on Tableau Public:
 ## Project Structure
 
 ```
-data/
-   raw/        - original dataset
-   cleaned/    - processed dataset
-
-notebooks/
-   data exploration and cleaning
-
-sql/
-   analytical SQL queries
-
-dashboard/
-   tableau dashboard image
+ecommerce-sales-analysis-global-superstore
+│
+├── data
+│   ├── raw
+│   │   └ Global Superstore.xls
+│   │
+│   └── cleaned
+│       └ orders_clean_master.csv
+│
+├── notebooks
+│   ├── 01_data_overview.ipynb
+│   └── 02_data_cleaning.ipynb
+│
+├── sql
+│   ├── 01_kpis.sql
+│   ├── 02_sales_analysis.sql
+│   ├── 03_customer_analysis.sql
+│   └── 04_product_analysis.sql
+│
+├── dashboard
+│   └── dashboard.png
+│
+└── README.md
 ```
 ---
 
