@@ -62,18 +62,18 @@ View the interactive dashboard on Tableau Public:
 
 ```
 data/
-raw dataset files
+   raw/        - original dataset
+   cleaned/    - processed dataset
 
 notebooks/
-data cleaning notebooks
+   data exploration and cleaning
 
 sql/
-analysis queries
+   analytical SQL queries
 
 dashboard/
-tableau dashboard image
+   tableau dashboard image
 ```
-
 ---
 
 ## Author
